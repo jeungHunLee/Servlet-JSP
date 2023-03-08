@@ -12,4 +12,14 @@
         <servlet-name>myServlet</servlet-name>
         <url-pattern>/First</url-pattern>
     </servlet-mapping>
+
+    <context-param>
+        <param-name>user_name</param-name>
+        <param-value>홍길동</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>user_company</param-name>
+        <param-value>한국주식회사</param-value>
+    </context-param>
 </web-app>

@@ -14,8 +14,8 @@ public class MySecondServlet extends HttpServlet {
     public static final long serialVersionUID = 1L;
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html;charset=utf-8");
-        PrintWriter out = response.getWriter();
+        response.setContentType("text/html;charset=utf-8");    //브라우저에 전달할 문서의 형태와 인코딩할 문자 집합
+        PrintWriter out = response.getWriter();    //PrintWriter 객체 생성
 
         out.println("<html>");
         out.println("<head>");
